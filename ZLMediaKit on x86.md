@@ -32,13 +32,11 @@
 
 7. `readlink("/proc/self/exe", "/home/ZLMediaKit/"..., 8193) = 63` 需要在 Procfs 里加一个目录 `/self/exe`，参见 `modules/axfs/src/mounts.rs: procfs` 等信息。这条调用等于是读取“当前运行的程序在哪个目录下”，需要在 `struct Process`里加入“创建进程时可执行文件在哪个目录，是什么名字”这条信息，也即把 `syscall_exec` 传入的信息保存到创建的进程中。这样才可以在访问 `readlink("/proc/self/exe"` 的时候拿到这个信息。
 
-8. `newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=561, ...}, 0) = 0` 
+8. `prctl(PR_GET_NAME, "MediaServer")       = 0`，只需要考虑这里用到的 `PR_GET_NAME`这个参数，获取进程名，很好加的
 
-9. `prctl(PR_GET_NAME, "MediaServer")       = 0`，只需要考虑这里用到的 `PR_GET_NAME`这个参数，获取进程名，很好加的
+9. `newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=561, ...}, 0) = 0` 我在另一篇写过[在内核中添加特殊文件的大致流程](https://github.com/Arceos-monolithic/tips/blob/main/%E4%B8%BA%20Starry%20%E8%B0%83%E8%AF%95%E5%B9%B6%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%EF%BC%9A%E4%BB%A5%20hwclock%20%E4%B8%BA%E4%BE%8B.md)
 
-10. `newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=561, ...}, 0) = 0` 我在另一篇写过[在内核中添加特殊文件的大致流程](https://github.com/Arceos-monolithic/tips/blob/main/%E4%B8%BA%20Starry%20%E8%B0%83%E8%AF%95%E5%B9%B6%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%EF%BC%9A%E4%BB%A5%20hwclock%20%E4%B8%BA%E4%BE%8B.md)
-
-11. `openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3` 这个也很简单，和上面的类似。注意这之后 ZLMediaKit 会读这个文件获取系统支持的核心数，从而决定之后运行时开几个线程。
+10. `openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3` 这个也很简单，和上面的类似。注意这之后 ZLMediaKit 会读这个文件获取系统支持的核心数，从而决定之后运行时开几个线程。
 
 ## 功能支持的时间
 
