@@ -1,0 +1,194 @@
+> sudo strace ./MediaServer -d
+execve("./MediaServer", ["./MediaServer", "-d"], 0x7ffd7d359cb8 /* 13 vars */) = 0
+brk(NULL)                               = 0x563600cbe000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffed3ae35a0) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa79fadf000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47611, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 47611, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa79fad3000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libssl.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=667864, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 669680, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79fa2f000
+mmap(0x7fa79fa4d000, 372736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fa79fa4d000
+mmap(0x7fa79faa8000, 118784, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x79000) = 0x7fa79faa8000
+mmap(0x7fa79fac5000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x95000) = 0x7fa79fac5000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4451632, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4465856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79f5ec000
+mmap(0x7fa79f69e000, 2482176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb2000) = 0x7fa79f69e000
+mmap(0x7fa79f8fc000, 860160, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x310000) = 0x7fa79f8fc000
+mmap(0x7fa79f9ce000, 385024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e1000) = 0x7fa79f9ce000
+mmap(0x7fa79fa2c000, 9408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa79fa2c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2260296, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 2275520, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79f3c0000
+mprotect(0x7fa79f45a000, 1576960, PROT_NONE) = 0
+mmap(0x7fa79f45a000, 1118208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9a000) = 0x7fa79f45a000
+mmap(0x7fa79f56b000, 454656, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ab000) = 0x7fa79f56b000
+mmap(0x7fa79f5db000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21a000) = 0x7fa79f5db000
+mmap(0x7fa79f5e9000, 10432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa79f5e9000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=940560, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 942344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79f2d9000
+mmap(0x7fa79f2e7000, 507904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fa79f2e7000
+mmap(0x7fa79f363000, 372736, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8a000) = 0x7fa79f363000
+mmap(0x7fa79f3be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe4000) = 0x7fa79f3be000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125488, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 127720, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79f2b9000
+mmap(0x7fa79f2bc000, 94208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa79f2bc000
+mmap(0x7fa79f2d3000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fa79f2d3000
+mmap(0x7fa79f2d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fa79f2d7000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\244;\374\204(\337f#\315I\214\234\f\256\271\32"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2216304, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2260560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa79f091000
+mmap(0x7fa79f0b9000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fa79f0b9000
+mmap(0x7fa79f24e000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fa79f24e000
+mmap(0x7fa79f2a6000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x214000) = 0x7fa79f2a6000
+mmap(0x7fa79f2ac000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa79f2ac000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa79f08f000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa79f08c000
+arch_prctl(ARCH_SET_FS, 0x7fa79f08c780) = 0
+set_tid_address(0x7fa79f08ca50)         = 17063
+set_robust_list(0x7fa79f08ca60, 24)     = 0
+rseq(0x7fa79f08d120, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fa79f2a6000, 16384, PROT_READ) = 0
+mprotect(0x7fa79f2d7000, 4096, PROT_READ) = 0
+mprotect(0x7fa79f3be000, 4096, PROT_READ) = 0
+mprotect(0x7fa79f5db000, 45056, PROT_READ) = 0
+mprotect(0x7fa79f9ce000, 372736, PROT_READ) = 0
+mprotect(0x7fa79fac5000, 40960, PROT_READ) = 0
+mprotect(0x5635fed96000, 131072, PROT_READ) = 0
+mprotect(0x7fa79fb19000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7fa79fad3000, 47611)           = 0
+getrandom("\xd2\xbf\x32\x99\x8a\xf8\x4e\x69", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x563600cbe000
+brk(0x563600cdf000)                     = 0x563600cdf000
+futex(0x7fa79f5e977c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe2([3, 4], O_CLOEXEC)                = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+mmap(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa79fad6000
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone3({flags=CLONE_VM|CLONE_VFORK, exit_signal=SIGCHLD, stack=0x7fa79fad6000, stack_size=0x9000}, 88) = 17064
+munmap(0x7fa79fad6000, 36864)           = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+close(4)                                = 0
+fcntl(3, F_SETFD, 0)                    = 0
+newfstatat(3, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "/usr/bin/ffmpeg\n", 4096)      = 16
+read(3, "", 4096)                       = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17064, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+close(3)                                = 0
+wait4(17064, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 17064
+readlink("/proc/self/exe", "/home/scpointer/2024/ZLMediaKit/"..., 8193) = 63
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=561, ...}, AT_EMPTY_PATH) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=561, ...}, AT_EMPTY_PATH) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 561
+lseek(3, -342, SEEK_CUR)                = 219
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 342
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=561, ...}, 0) = 0
+readlink("/proc/self/exe", "/home/scpointer/2024/ZLMediaKit/"..., 8193) = 63
+prctl(PR_GET_NAME, "MediaServer")       = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x5), ...}, AT_EMPTY_PATH) = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.404 I ["..., 1182024-01-18 16:15:03.404 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: H264
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.404 I ["..., 1182024-01-18 16:15:03.404 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: H265
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.405 I ["..., 1182024-01-18 16:15:03.405 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: JPEG
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.405 I ["..., 1272024-01-18 16:15:03.405 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: mpeg4-generic
+) = 127
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.405 I ["..., 1182024-01-18 16:15:03.405 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: opus
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.406 I ["..., 1182024-01-18 16:15:03.406 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: PCMA
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.406 I ["..., 1182024-01-18 16:15:03.406 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: PCMU
+) = 118
+prctl(PR_GET_NAME, "MediaServer")       = 0
+getpid()                                = 17063
+write(1, "\33[36m2024-01-18 16:15:03.407 I ["..., 1172024-01-18 16:15:03.407 I [MediaServer] [17063-MediaServer] Factory.cpp:41 registerPlugin | Load codec: L16
+) = 117
+readlink("/proc/self/exe", "/home/scpointer/2024/ZLMediaKit/"..., 8193) = 63
+readlink("/proc/self/exe", "/home/scpointer/2024/ZLMediaKit/"..., 8193) = 63
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+read(3, "0-19\n", 1024)                 = 5
+close(3)                                = 0
+readlink("/proc/self/exe", "/home/scpointer/2024/ZLMediaKit/"..., 8193) = 63
+openat(AT_FDCWD, "/home/scpointer/2024/ZLMediaKit/release/linux/Debug/log", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+brk(0x563600d06000)                     = 0x563600d06000
+getdents64(3, 0x563600cdd020 /* 3 entries */, 32768) = 88
+openat(AT_FDCWD, "/home/scpointer/2024/ZLMediaKit/release/linux/Debug/log/2024-01-18_00.log", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+getdents64(3, 0x563600cdd020 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+getpid()                                = 17063
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa79f08ca50) = 17066
+prctl(PR_GET_NAME, "MediaServer")       = 0
+2024-01-18 16:15:03.408 I [MediaServer] [17066-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+getpid(2024-01-18 16:15:03.408 I [MediaServer] [17066-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+)                                = 17063
+2024-01-18 16:15:03.408 I [MediaServer] [17066-MediaServer] main.cpp:256 start_main | ZLMediaKit(git hash:6514be7/2024-01-15T20:34:17+08:00,branch:master,build time:2024-01-17T14:33:26)
+write(1, "\33[32m2024-01-18 16:15:03.408 D ["..., 1202024-01-18 16:15:03.408 D [MediaServer] [17063-MediaServer] System.cpp:133 startDaemon | 启动子进程:17066
+) = 120
+access("/home/", F_OK)                  = 0
+access("/home/scpointer/", F_OK)        = 0
+access("/home/scpointer/2024/", F_OK)   = 0
+access("/home/scpointer/2024/ZLMediaKit/", F_OK) = 0
+access("/home/scpointer/2024/ZLMediaKit/release/", F_OK) = 0
+access("/home/scpointer/2024/ZLMediaKit/release/linux/", F_OK) = 0
+access("/home/scpointer/2024/ZLMediaKit/release/linux/Debug/", F_OK) = 0
+access("/home/scpointer/2024/ZLMediaKit/release/linux/Debug/log/", F_OK) = 0
+openat(AT_FDCWD, "/home/scpointer/2024/ZLMediaKit/release/linux/Debug/log/2024-01-18_00.log", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+lseek(3, 0, SEEK_END)                   = 58530
+newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=561, ...}, 0) = 0
+getpid()                                = 17063
+write(3, "2024-01-18 16:15:03.408 D [Media"..., 111) = 111
+rt_sigaction(SIGINT, {sa_handler=0x5635fe44c5e7, sa_mask=[INT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fa79f0d3520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x5635fe44c6d5, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fa79f0d3520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+wait4(17066, 2024-01-18 16:15:03.412 D [MediaServer] [17066-MediaServer] SSLBox.cpp:174 setContext | Add certificate of: default.zlmediakit.com
+2024-01-18 16:15:03.412 D [MediaServer] [17066-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-01-18 16:15:03.414 I [MediaServer] [17066-MediaServer] EventPoller.cpp:500 EventPollerPool | EventPoller created size: 20
+2024-01-18 16:15:03.414 I [MediaServer] [17066-MediaServer] main.cpp:350 start_main | 已启动http api 接口
+2024-01-18 16:15:03.414 I [MediaServer] [17066-MediaServer] main.cpp:352 start_main | 已启动http hook 接口
+2024-01-18 16:15:03.459 I [MediaServer] [17066-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 554
+2024-01-18 16:15:03.459 I [MediaServer] [17066-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 1935
+2024-01-18 16:15:03.460 I [MediaServer] [17066-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 80
+2024-01-18 16:15:03.460 I [MediaServer] [17066-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-01-18 16:15:03.461 I [MediaServer] [17066-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-01-18 16:15:03.462 I [MediaServer] [17066-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-01-18 16:15:03.462 I [MediaServer] [17066-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 9000
