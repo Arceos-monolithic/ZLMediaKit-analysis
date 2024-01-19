@@ -47,7 +47,12 @@ wait4(17066,
 
 换成 `sudo strace -f -o log.txt ./MediaServer -d ` 命令再次执行。 `-f` 是为了监听 fork 出的其他进程， `-o` 输出到文件是因为推流后产生大量的 `clock_nanosleep` 和 `epoll_wait` 等 syscall 导致输出过多。
 
-这次运行的输出记录在[这里](server_fork_log.txt)。在下面的描述中，涉及的进程有 `7554` `7555` `7556`，其中
+这次运行的输出记录在[这里](server_fork_log.txt)。在日志涉及的进程有
 
-- 7554 是命令行进程， 准备好环境后 `clone3({flags=CLONE_VM|CLONE_VFORK, exit_signal=SIGCHLD, stack=0x7fd16d722000, stack_size=0x9000}, 88` 产生 7555
-- 7555 是一个子任务，仅为了执行 `["sh", "-c", "which ffmpeg"] ` 这一个命令
+- 7554 是主进程， 准备好环境后 `clone3({flags=CLONE_VM|CLONE_VFORK, exit_signal=SIGCHLD, stack=0x7fd16d722000, stack_size=0x9000}, 88` 产生 7555
+- 7555 和 7556 是子任务，仅为了执行 `["sh", "-c", "which ffmpeg"] ` 这一个命令。执行完之后它们就退出了
+- 7557 是 7554 中产生的实际用于服务的进程。它通过
+  ```bash
+  clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7fd16ccd7910, parent_tid=0x7fd16ccd7910, exit_signal=0, 
+  ```
+  创建**线程**7558。
