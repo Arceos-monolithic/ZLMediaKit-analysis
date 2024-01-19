@@ -1,8 +1,8 @@
-# ZLMediaKit on x86
+# 第一阶段
 
-## 打印调试信息
+## 待分配的任务
 
-通过 `./MediaServer -h` 可获取启动帮助。使用 strace 追踪后，发现值得注意的有以下参数（[原输出文件](Log1.txt)）
+通过 `./MediaServer -h` 可获取启动帮助。使用 strace 追踪后，发现值得注意的有以下参数（[原输出文件](Log1.txt)）。这些任务需要各位在 Starry 中添加功能，使得内核在同样的 syscall 参数输入下的输出与 strace 的输出一致。
 
 1. 启动时需要动态库：
    
