@@ -1,5 +1,13 @@
 # 第一阶段
 
+## 使用的测试命令
+
+以下指令用于分析 syscall 功能和最终测试。在并行实现这些功能的过程中不必每次都按这个流程走。
+
+1. 在 [ZLMediaKit 提供的文档](https://docs.zlmediakit.com/zh/guide/install/start.html) 下载并编译项目，获取可执行文件 `MediaServer`
+2. 将 `MediaServer` 及同目录下其他文件、所需的动态库一并放到文件系统镜像中
+3. 启动后执行 `./MediaServer -h` 命令
+
 ## 待分配的任务
 
 通过 `./MediaServer -h` 可获取启动帮助。使用 strace 追踪后，发现值得注意的有以下参数（[原输出文件](Log1.txt)）。这些任务需要各位在 Starry 中添加功能，使得内核在同样的 syscall 参数输入下的输出与 strace 的输出一致。
