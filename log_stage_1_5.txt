@@ -1,0 +1,707 @@
+[  0.090318 0 fatfs::dir:140] Is a directory
+[  0.091677 0 fatfs::dir:140] Is a directory
+[  0.092198 0 fatfs::dir:140] Is a directory
+[  0.093470 0 fatfs::dir:140] Is a directory
+[  0.094146 0 fatfs::dir:140] Is a directory
+[  0.137113 0:6 axstarry::syscall:40] [syscall] id = ARCH_PRCTL, args = [4098, 70353528, 0, 0, 1685382482, 0], entry
+[  0.138197 0:6 axstarry::syscall:53] [syscall] id = 158, args = [4098, 70353528, 0, 0, 1685382482, 0], return 0
+[  0.138579 0:6 axstarry::syscall:40] [syscall] id = SET_TID_ADDRESS, args = [70355960, 70353528, 0, 0, 0, 0], entry
+[  0.138882 0:6 axstarry::syscall:53] [syscall] id = 218, args = [70355960, 70353528, 0, 0, 0, 0], return 6
+[  0.139246 0:6 axstarry::syscall:40] [syscall] id = GETUID, args = [1073741378, 47, 98, 0, 0, 0], entry
+[  0.139453 0:6 axstarry::syscall:53] [syscall] id = 102, args = [1073741378, 47, 98, 0, 0, 0], return 0
+[  0.139970 0:6 axstarry::syscall:22] [syscall] id = BRK, args = [0, 1073741824, 1073741272, 0, 3, 0], entry
+[  0.140238 0:6 axstarry::syscall:53] [syscall] id = 12, args = [0, 1073741824, 1073741272, 0, 3, 0], return 1067450368
+[  0.140563 0:6 axstarry::syscall:22] [syscall] id = BRK, args = [1067458560, 1073741824, 1, 0, 3, 0], entry
+[  0.140831 0:6 axstarry::syscall:53] [syscall] id = 12, args = [1067458560, 1073741824, 1, 0, 3, 0], return 1067458560
+[  0.141089 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], entry
+[  0.142106 0:6 axstarry::syscall:53] [syscall] id = 9, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], return 1067450368
+[  0.142459 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[  0.143020 0:6 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[  0.144329 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[  0.144527 0:6 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 8192
+[  0.144794 0:6 axstarry::syscall:40] [syscall] id = GETPID, args = [1073740648, 248, 67545110, 8876, 8592, 1], entry
+[  0.144983 0:6 axstarry::syscall:53] [syscall] id = 39, args = [1073740648, 248, 67545110, 8876, 8592, 1], return 5
+[  0.145130 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[  0.145210 0:6 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 12288
+[  0.145514 0:6 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [1, 1073739696, 0, 8, 12352, 0], entry
+[  0.145927 0:6 axstarry::syscall:53] [syscall] id = 14, args = [1, 1073739696, 0, 8, 12352, 0], return 0
+[  0.146277 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [17, 1073739664, 0, 8, 12352, 0], entry
+[  0.146729 0:6 axstarry::syscall:53] [syscall] id = 13, args = [17, 1073739664, 0, 8, 12352, 0], return 0
+[  0.147598 0:6 axstarry::syscall:40] [syscall] id = GETPPID, args = [68190691, 68190690, 4, 9692, 5272, 5728], entry
+[  0.148209 0:6 axstarry::syscall:53] [syscall] id = 110, args = [68190691, 68190690, 4, 9692, 5272, 5728], return 1
+[  0.148631 0:6 axstarry::syscall:40] [syscall] id = UNAME, args = [1073740168, 68187234, 9, 9788, 5224, 0], entry
+[  0.149131 0:6 axstarry::syscall:53] [syscall] id = 63, args = [1073740168, 68187234, 9, 9788, 5224, 0], return 0
+[  0.149371 0:6 axstarry::syscall:31] [syscall] id = STAT, args = [1073741798, 1073739840, 1073739840, 10380, 5456, 4294967196], entry
+[  0.150055 0:6 axstarry::syscall:53] [syscall] id = 4, args = [1073741798, 1073739840, 1073739840, 10380, 5456, 4294967196], return 0
+[  0.150343 0:6 axstarry::syscall:31] [syscall] id = STAT, args = [68205368, 1073739840, 1073739840, 10380, 0, 4294967196], entry
+[  0.150526 0:6 axstarry::syscall:53] [syscall] id = 4, args = [68205368, 1073739840, 1073739840, 10380, 0, 4294967196], return 0
+[  0.150908 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [0, 21523, 1073740568, 9820, 5456, 9312], entry
+[  0.151391 0:6 axstarry::syscall:53] [syscall] id = 16, args = [0, 21523, 1073740568, 9820, 5456, 9312], return 0
+[  0.151610 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [1, 21523, 1073740568, 9820, 1, 9312], entry
+[  0.151779 0:6 axstarry::syscall:53] [syscall] id = 16, args = [1, 21523, 1073740568, 9820, 1, 9312], return 0
+[  0.151997 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [1, 1073740128, 1073740160, 8, 1, 9312], entry
+[  0.152179 0:6 axstarry::syscall:53] [syscall] id = 13, args = [1, 1073740128, 1073740160, 8, 1, 9312], return 0
+[  0.152596 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [2, 0, 1073740256, 8, 0, 9312], entry
+[  0.152843 0:6 axstarry::syscall:53] [syscall] id = 13, args = [2, 0, 1073740256, 8, 0, 9312], return 0
+[  0.153022 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [2, 1073740224, 0, 8, 0, 9312], entry
+[  0.153207 0:6 axstarry::syscall:53] [syscall] id = 13, args = [2, 1073740224, 0, 8, 0, 9312], return 0
+[  0.153516 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [3, 0, 1073740256, 8, 0, 9312], entry
+[  0.153715 0:6 axstarry::syscall:53] [syscall] id = 13, args = [3, 0, 1073740256, 8, 0, 9312], return 0
+[  0.153967 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [3, 1073740224, 0, 8, 0, 9312], entry
+[  0.154180 0:6 axstarry::syscall:53] [syscall] id = 13, args = [3, 1073740224, 0, 8, 0, 9312], return 0
+[  0.154345 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [15, 0, 1073740256, 8, 0, 9312], entry
+[  0.154518 0:6 axstarry::syscall:53] [syscall] id = 13, args = [15, 0, 1073740256, 8, 0, 9312], return 0
+[  0.154625 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [15, 1073740224, 0, 8, 0, 9312], entry
+[  0.154769 0:6 axstarry::syscall:53] [syscall] id = 13, args = [15, 1073740224, 0, 8, 0, 9312], return 0
+[  0.154960 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 8192, 3, 34, 18446744073709551615, 0], entry
+[  0.155180 0:6 axstarry::syscall:53] [syscall] id = 9, args = [0, 8192, 3, 34, 18446744073709551615, 0], return 16384
+[  0.155395 0:6 axstarry::syscall:31] [syscall] id = OPEN, args = [68125650, 32770, 0, 0, 0, 0], entry
+[  0.156186 0:6 axstarry::syscall:53] [syscall] id = 2, args = [68125650, 32770, 0, 0, 0, 0], return -2
+[  0.156410 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [2, 21523, 1073740504, 0, 0, 0], entry
+[  0.156573 0:6 axstarry::syscall:53] [syscall] id = 16, args = [2, 21523, 1073740504, 0, 0, 0], return 0
+[  0.156713 0:6 axstarry::syscall:31] [syscall] id = FCNTL64, args = [2, 1030, 10, 10, 72, 0], entry
+[  0.157043 0:6 axstarry::syscall:53] [syscall] id = 72, args = [2, 1030, 10, 10, 72, 0], return -22
+[  0.157335 0:6 axstarry::syscall:31] [syscall] id = FCNTL64, args = [2, 1030, 0, 10, 72, 0], entry
+[  0.157598 0:6 axstarry::syscall:53] [syscall] id = 72, args = [2, 1030, 0, 10, 72, 0], return -22
+[  0.157770 0:6 axstarry::syscall:31] [syscall] id = FCNTL64, args = [2, 0, 10, 10, 72, 0], entry
+[  0.158022 0:6 axstarry::syscall:53] [syscall] id = 72, args = [2, 0, 10, 10, 72, 0], return 3
+[  0.158261 0:6 axstarry::syscall:31] [syscall] id = FCNTL64, args = [3, 2, 1, 10, 72, 0], entry
+[  0.158503 0:6 axstarry::syscall:53] [syscall] id = 72, args = [3, 2, 1, 10, 72, 0], return -22
+[  0.158676 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [3, 21519, 1073740508, 10, 72, 0], entry
+[  0.158898 0:6 axstarry::syscall:53] [syscall] id = 16, args = [3, 21519, 1073740508, 10, 72, 0], return 0
+[  0.159112 0:6 axstarry::syscall:40] [syscall] id = GETPGID, args = [0, 21519, 1073740508, 10, 0, 0], entry
+[  0.159399 0:6 axstarry::syscall:53] [syscall] id = 121, args = [0, 21519, 1073740508, 10, 0, 0], return 0
+[  0.159858 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [20, 0, 1073740208, 8, 0, 0], entry
+[  0.160032 0:6 axstarry::syscall:53] [syscall] id = 13, args = [20, 0, 1073740208, 8, 0, 0], return 0
+[  0.160290 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [20, 1073740176, 0, 8, 0, 0], entry
+[  0.160529 0:6 axstarry::syscall:53] [syscall] id = 13, args = [20, 1073740176, 0, 8, 0, 0], return 0
+[  0.160637 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [22, 0, 1073740208, 8, 0, 0], entry
+[  0.160900 0:6 axstarry::syscall:53] [syscall] id = 13, args = [22, 0, 1073740208, 8, 0, 0], return 0
+[  0.161142 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [22, 1073740176, 0, 8, 0, 0], entry
+[  0.161293 0:6 axstarry::syscall:53] [syscall] id = 13, args = [22, 1073740176, 0, 8, 0, 0], return 0
+[  0.161442 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [21, 0, 1073740208, 8, 0, 0], entry
+[  0.161695 0:6 axstarry::syscall:53] [syscall] id = 13, args = [21, 0, 1073740208, 8, 0, 0], return 0
+[  0.161908 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [21, 1073740176, 0, 8, 0, 0], entry
+[  0.162133 0:6 axstarry::syscall:53] [syscall] id = 13, args = [21, 1073740176, 0, 8, 0, 0], return 0
+[  0.162349 0:6 axstarry::syscall:40] [syscall] id = SETPGID, args = [0, 5, 0, 8, 0, 0], entry
+[  0.162679 0:6 axstarry::syscall:53] [syscall] id = 109, args = [0, 5, 0, 8, 0, 0], return 0
+[  0.162922 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [3, 21520, 1073740492, 8, 0, 0], entry
+[  0.163112 0:6 axstarry::syscall:53] [syscall] id = 16, args = [3, 21520, 1073740492, 8, 0, 0], return 0
+[  0.164557 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [0, 21505, 1073739960, 9196, 0, 2], entry
+[  0.165015 0:6 axstarry::syscall:53] [syscall] id = 16, args = [0, 21505, 1073739960, 9196, 0, 2], return 0
+[  0.165307 0:6 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 16384, 3, 34, 18446744073709551615, 0], entry
+[  0.165556 0:6 axstarry::syscall:53] [syscall] id = 9, args = [0, 16384, 3, 34, 18446744073709551615, 0], return 24576
+[  0.165887 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [0, 21506, 1073740020, 30028, 24672, 0], entry
+[  0.166118 0:6 axstarry::syscall:53] [syscall] id = 16, args = [0, 21506, 1073740020, 30028, 24672, 0], return 0
+[  0.166340 0:6 axstarry::syscall:40] [syscall] id = GETEUID, args = [0, 21506, 1073740020, 30028, 24672, 0], entry
+[  0.166590 0:6 axstarry::syscall:53] [syscall] id = 107, args = [0, 21506, 1073740020, 30028, 24672, 0], return 0
+[  0.167081 0:6 axstarry::syscall:31] [syscall] id = OPEN, args = [68126294, 32768, 438, 11020, 7306357456645743973, 9259542123273814144], entry
+[  0.167708 0:6 axstarry::syscall:53] [syscall] id = 2, args = [68126294, 32768, 438, 11020, 7306357456645743973, 9259542123273814144], return -2
+[  0.168155 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [0, 21523, 1073739736, 11020, 4294967295, 9259542123273814144], entry
+[  0.168618 0:6 axstarry::syscall:53] [syscall] id = 16, args = [0, 21523, 1073739736, 11020, 4294967295, 9259542123273814144], return 0
+[  0.169340 0:6 axstarry::syscall:31] [syscall] id = GETCWD, args = [11040, 192, 192, 11260, 11040, 1], entry
+[  0.169818 0:6 axstarry::syscall:53] [syscall] id = 79, args = [11040, 192, 192, 11260, 11040, 1], return 11040
+[  0.170325 0:6 axstarry::syscall:40] [syscall] id = GETEUID, args = [1073739720, 9829, 9827, 36, 18374403900871474943, 8], entry
+[  0.170746 0:6 axstarry::syscall:53] [syscall] id = 107, args = [1073739720, 9829, 9827, 36, 18374403900871474943, 8], return 0
+[  0.171077 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [28, 1073739680, 1073739712, 8, 18374403900871474943, 64], entry
+[  0.171375 0:6 axstarry::syscall:53] [syscall] id = 13, args = [28, 1073739680, 1073739712, 8, 18374403900871474943, 64], return 0
+[  0.171655 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [1, 21523, 1073739672, 0, 70349344, 0], entry
+[  0.171981 0:6 axstarry::syscall:53] [syscall] id = 16, args = [1, 21523, 1073739672, 0, 70349344, 0], return 0
+[  0.172258 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739568, 2, 0, 70349344, 0], entry
+/ # [  0.172674 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739568, 2, 0, 70349344, 0], return 4
+[  0.172958 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  0.173357 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  0.173620 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  1.628146 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  1.628657 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+.[  1.628841 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  1.629034 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  1.629110 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  1.629233 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  1.696580 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  1.696693 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+/[  1.697192 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  1.697570 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  1.697721 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  1.697801 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  1.998614 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  1.998872 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+M[  1.999484 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  1.999614 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  1.999710 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  1.999858 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  2.316275 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  2.316474 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+e[  2.316640 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  2.316768 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  2.316903 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  2.316973 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  2.556360 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  2.557019 0:6 axstarry::syscall:31] [syscall] id = OPEN, args = [9872, 622592, 0, 0, 0, 0], entry
+[  2.557668 0:6 axstarry::syscall:53] [syscall] id = 2, args = [9872, 622592, 0, 0, 0, 0], return 4
+[  2.557806 0:6 axstarry::syscall:31] [syscall] id = FCNTL64, args = [4, 2, 1, 0, 0, 0], entry
+[  2.558136 0:6 axstarry::syscall:53] [syscall] id = 72, args = [4, 2, 1, 0, 0, 0], return -22
+[  2.558664 0:6 axstarry::syscall:31] [syscall] id = GETDENTS64, args = [4, 21944, 2048, 24556, 21920, 2], entry
+[  2.559898 0:6 axstarry::syscall:53] [syscall] id = 217, args = [4, 21944, 2048, 24556, 21920, 2], return 431
+[  2.560688 0:6 axstarry::syscall:31] [syscall] id = STAT, args = [11296, 1073739232, 1073739232, 11, 8192, 4294967196], entry
+[  2.645977 0:6 axstarry::syscall:53] [syscall] id = 4, args = [11296, 1073739232, 1073739232, 11, 8192, 4294967196], return 0
+[  2.646225 0:6 axstarry::syscall:31] [syscall] id = GETDENTS64, args = [4, 21944, 2048, 22366, 21920, 19202], entry
+[  2.646650 0:6 axstarry::syscall:53] [syscall] id = 217, args = [4, 21944, 2048, 22366, 21920, 19202], return 0
+[  2.646824 0:6 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 0, 0, 0, 0, 0], entry
+[  2.646996 0:6 axstarry::syscall:53] [syscall] id = 3, args = [4, 0, 0, 0, 0, 0], return 0
+[  2.647498 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 14, 19200, 2], entry
+/ # ./MediaServer [  2.647703 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 14, 19200, 2], return 22
+[  2.647882 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  2.648092 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  2.648328 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  2.780814 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  2.781230 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+ [  2.781603 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  2.781909 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  2.782036 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  2.782389 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  3.084117 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  3.084457 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+-[  3.084660 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  3.084872 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  3.085014 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  3.085095 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  3.232736 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  3.232905 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739600, 2, 1073739768, 1, 1], entry
+h[  3.233007 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739600, 2, 1073739768, 1, 1], return 1
+[  3.233187 0:6 axstarry::syscall:31] [syscall] id = POLL, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], entry
+[  3.233368 0:6 axstarry::syscall:53] [syscall] id = 7, args = [1073739688, 1, 18446744073709551615, 0, 0, 0], return 1
+[  3.233495 0:6 axstarry::syscall:31] [syscall] id = READ, args = [0, 1073739929, 1, 0, 0, 0], entry
+[  3.415675 0:6 axstarry::syscall:53] [syscall] id = 0, args = [0, 1073739929, 1, 0, 0, 0], return 1
+[  3.416108 0:6 axstarry::syscall:31] [syscall] id = WRITEV, args = [1, 1073739696, 2, 1073739768, 1073739770, 1], entry
+
+[  3.416329 0:6 axstarry::syscall:53] [syscall] id = 20, args = [1, 1073739696, 2, 1073739768, 1073739770, 1], return 1
+[  3.416717 0:6 axstarry::syscall:22] [syscall] id = MUNMAP, args = [24576, 16384, 16384, 2, 24576, 1], entry
+[  3.417090 0:6 axstarry::syscall:53] [syscall] id = 11, args = [24576, 16384, 16384, 2, 24576, 1], return 0
+[  3.417454 0:6 axstarry::syscall:31] [syscall] id = IOCTL, args = [0, 21506, 1073739960, 1, 0, 2], entry
+[  3.417775 0:6 axstarry::syscall:53] [syscall] id = 16, args = [0, 21506, 1073739960, 1, 0, 2], return 0
+[  3.418000 0:6 axstarry::syscall:40] [syscall] id = SIGACTION, args = [28, 1073739680, 0, 8, 0, 2], entry
+[  3.418338 0:6 axstarry::syscall:53] [syscall] id = 13, args = [28, 1073739680, 0, 8, 0, 2], return 0
+[  3.419446 0:6 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [0, 68072832, 1073739872, 8, 11056, 1], entry
+[  3.419692 0:6 axstarry::syscall:53] [syscall] id = 14, args = [0, 68072832, 1073739872, 8, 11056, 1], return 0
+[  3.420015 0:6 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [0, 68072840, 1073739696, 8, 11056, 1], entry
+[  3.420210 0:6 axstarry::syscall:53] [syscall] id = 14, args = [0, 68072840, 1073739696, 8, 11056, 1], return 0
+[  3.420500 0:6 axstarry::syscall:40] [syscall] id = FORK, args = [70355964, 68072840, 1073739696, 8, 11056, 1], entry
+[  3.425007 0:6 axstarry::syscall:53] [syscall] id = 57, args = [70355964, 68072840, 1073739696, 8, 11056, 1], return 7
+[  3.425282 0:6 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [2, 1073739696, 0, 8, 11056, 1], entry
+[  3.425523 0:6 axstarry::syscall:53] [syscall] id = 14, args = [2, 1073739696, 0, 8, 11056, 1], return 0
+[  3.425758 0:6 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [2, 1073739872, 0, 8, 11056, 1], entry
+[  3.425965 0:6 axstarry::syscall:53] [syscall] id = 14, args = [2, 1073739872, 0, 8, 11056, 1], return 0
+[  3.426217 0:6 axstarry::syscall:40] [syscall] id = SETPGID, args = [7, 7, 0, 8, 11056, 1], entry
+[  3.426416 0:6 axstarry::syscall:53] [syscall] id = 109, args = [7, 7, 0, 8, 11056, 1], return 0
+[  3.426870 0:6 axstarry::syscall:40] [syscall] id = WAIT4, args = [18446744073709551615, 1073739884, 2, 0, 0, 0], entry
+[  3.427261 0:8 axstarry::syscall:40] [syscall] id = GETTID, args = [70355964, 68072840, 70353528, 8, 11056, 1], entry
+[  3.427523 0:8 axstarry::syscall:53] [syscall] id = 186, args = [70355964, 68072840, 70353528, 8, 11056, 1], return 8
+[  3.427755 0:8 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [2, 1073739696, 0, 8, 11056, 1], entry
+[  3.427903 0:8 axstarry::syscall:53] [syscall] id = 14, args = [2, 1073739696, 0, 8, 11056, 1], return 0
+[  3.428108 0:8 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [2, 1073739872, 0, 8, 11056, 1], entry
+[  3.428286 0:8 axstarry::syscall:53] [syscall] id = 14, args = [2, 1073739872, 0, 8, 11056, 1], return 0
+[  3.428580 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [0, 6304, 4144, 8, 11056, 1], entry
+[  3.428838 0:8 axstarry::syscall:53] [syscall] id = 39, args = [0, 6304, 4144, 8, 11056, 1], return 7
+[  3.428978 0:8 axstarry::syscall:40] [syscall] id = SETPGID, args = [0, 7, 4144, 8, 11056, 1], entry
+[  3.429109 0:8 axstarry::syscall:53] [syscall] id = 109, args = [0, 7, 4144, 8, 11056, 1], return 0
+[  3.429312 0:8 axstarry::syscall:31] [syscall] id = IOCTL, args = [3, 21520, 1073739948, 8, 11056, 1], entry
+[  3.429491 0:8 axstarry::syscall:53] [syscall] id = 16, args = [3, 21520, 1073739948, 8, 11056, 1], return 0
+[  3.429783 0:8 axstarry::syscall:40] [syscall] id = SIGACTION, args = [20, 1073739632, 0, 8, 11056, 1], entry
+[  3.429968 0:8 axstarry::syscall:53] [syscall] id = 13, args = [20, 1073739632, 0, 8, 11056, 1], return 0
+[  3.430226 0:8 axstarry::syscall:40] [syscall] id = SIGACTION, args = [22, 1073739632, 0, 8, 11056, 1], entry
+[  3.430423 0:8 axstarry::syscall:53] [syscall] id = 13, args = [22, 1073739632, 0, 8, 11056, 1], return 0
+[  3.430691 0:8 axstarry::syscall:40] [syscall] id = SIGACTION, args = [2, 1073739632, 0, 8, 11056, 1], entry
+[  3.430890 0:8 axstarry::syscall:53] [syscall] id = 13, args = [2, 1073739632, 0, 8, 11056, 1], return 0
+[  3.431122 0:8 axstarry::syscall:40] [syscall] id = SIGACTION, args = [15, 1073739632, 0, 8, 11056, 1], entry
+[  3.431364 0:8 axstarry::syscall:53] [syscall] id = 13, args = [15, 1073739632, 0, 8, 11056, 1], return 0
+[  3.431515 0:8 axstarry::syscall:40] [syscall] id = SIGACTION, args = [3, 1073739632, 0, 8, 11056, 1], entry
+[  3.431701 0:8 axstarry::syscall:53] [syscall] id = 13, args = [3, 1073739632, 0, 8, 11056, 1], return 0
+[  3.432052 0:8 axstarry::syscall:40] [syscall] id = EXECVE, args = [6336, 6400, 6424, 8, 3399988123389603631, 9259542123273814144], entry
+[  4.968162 0:8 axstarry::syscall:53] [syscall] id = 59, args = [6336, 6400, 6424, 8, 3399988123389603631, 9259542123273814144], return 2
+[  4.968883 0:8 axstarry::syscall:22] [syscall] id = BRK, args = [0, 1073740732, 0, 35, 0, 0], entry
+[  4.968967 0:8 axstarry::syscall:53] [syscall] id = 12, args = [0, 1073740732, 0, 35, 0, 0], return 1067450368
+[  4.969658 0:8 axstarry::syscall:40] [syscall] id = ARCH_PRCTL, args = [12289, 1073740656, 67236800, 1, 3, 2048], entry
+[  4.969745 0:8 axstarry::syscall:53] [syscall] id = 158, args = [12289, 1073740656, 67236800, 1, 3, 2048], return -22
+[  4.970422 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 67351264, 524288, 0, 524288, 67351264], entry
+[  5.011520 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 67351264, 524288, 0, 524288, 67351264], return 4
+[  5.012101 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073739128, 832, 0, 524288, 67351264], entry
+[  5.012419 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073739128, 832, 0, 524288, 67351264], return 832
+[  5.012766 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073738112, 784, 64, 1073738112, 67351264], entry
+[  5.094198 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073738112, 784, 64, 1073738112, 67351264], return 784
+[  5.094519 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073738048, 48, 880, 1073738112, 0], entry
+[  5.135855 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073738048, 48, 880, 1073738112, 0], return 48
+[  5.136034 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073737968, 68, 928, 1073738112, 0], entry
+[  5.176203 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073737968, 68, 928, 1073738112, 0], return 68
+[  5.177062 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073737284, 0, 67307088, 67307088, 67351264, 1], entry
+[  5.177477 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073737284, 0, 67307088, 67307088, 67351264, 1], return 7
+[  5.178115 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073737296, 6, 4294967295, 1073737209, 4294967295], entry
+         7:     file=./MediaServer [0];  generating link map
+[  5.178904 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073737296, 6, 4294967295, 1073737209, 4294967295], return 57
+[  5.179536 0:8 axstarry::syscall:31] [syscall] id = GETCWD, args = [67352736, 128, 18446744073642198880, 4294967295, 536870912, 67352696], entry
+[  5.180057 0:8 axstarry::syscall:53] [syscall] id = 79, args = [67352736, 128, 18446744073642198880, 4294967295, 536870912, 67352696], return 67352736
+[  5.181360 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073737808, 784, 64, 536870912, 67352696], entry
+[  5.221702 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073737808, 784, 64, 536870912, 67352696], return 784
+[  5.222553 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 20314104, 1, 2050, 4, 0], entry
+[  5.223093 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 20314104, 1, 2050, 4, 0], return 4096
+[  5.223413 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [10264576, 9883648, 0, 2050, 4, 0], entry
+[  5.224264 0:8 axstarry::syscall:53] [syscall] id = 10, args = [10264576, 9883648, 0, 2050, 4, 0], return 0
+[  5.224777 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [10264576, 6320128, 5, 2066, 4, 10260480], entry
+[  5.225137 0:8 axstarry::syscall:53] [syscall] id = 9, args = [10264576, 6320128, 5, 2066, 4, 10260480], return 10264576
+[  5.225511 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [16584704, 3559424, 1, 2066, 4, 16580608], entry
+[  5.225900 0:8 axstarry::syscall:53] [syscall] id = 9, args = [16584704, 3559424, 1, 2066, 4, 16580608], return 16584704
+[  5.226161 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [20148224, 139264, 3, 2066, 4, 20140032], entry
+[  5.226522 0:8 axstarry::syscall:53] [syscall] id = 9, args = [20148224, 139264, 3, 2066, 4, 20140032], return 20148224
+[  5.278671 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [20287488, 30712, 3, 50, 4294967295, 0], entry
+[  5.279188 0:8 axstarry::syscall:53] [syscall] id = 9, args = [20287488, 30712, 3, 50, 4294967295, 0], return 20287488
+[  5.416331 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 4, 5024, 18446744073709546652, 3221258242, 48], entry
+[  5.416509 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 4, 5024, 18446744073709546652, 3221258242, 48], return 0
+[  5.416628 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073736420, 0, 67307384, 67307384, 4096, 1], entry
+[  5.416708 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073736420, 0, 67307384, 67307384, 4096, 1], return 7
+[  5.416913 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073736432, 18, 16, 1073736105, 4294967295], entry
+         7:       dynamic: 0x0000000001355f40  base: 0x0000000000001000   size: 0x000000000135f7f8
+         7:         entry: 0x00000000009cd500  phdr: 0x0000000000001040  phnum:                 14
+         7:
+[  5.417229 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073736432, 18, 16, 1073736105, 4294967295], return 203
+[  5.417750 0:8 axstarry::syscall:40] [syscall] id = UNAME, args = [1073739600, 67111864, 0, 67271712, 0, 0], entry
+[  5.417928 0:8 axstarry::syscall:53] [syscall] id = 63, args = [1073739600, 67111864, 0, 67271712, 0, 0], return 0
+[  5.418940 0:8 axstarry::syscall:31] [syscall] id = ACCESS, args = [67304848, 4, 20275232, 0, 1, 67351280], entry
+[  5.419462 0:8 axstarry::syscall:53] [syscall] id = 21, args = [67304848, 4, 20275232, 0, 1, 67351280], return -2
+[  5.461966 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073736020, 0, 67307488, 67307488, 0, 1], entry
+[  5.462230 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073736020, 0, 67307488, 67307488, 0, 1], return 7
+[  5.462385 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073736032, 12, 4294967295, 1073735897, 4294967295], entry
+         7:
+         7:     file=libssl.so.3 [0];  needed by ./MediaServer [0]
+[  5.462599 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073736032, 12, 4294967295, 1073735897, 4294967295], return 76
+[  5.462896 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], entry
+[  5.463431 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], return -2
+[  5.463642 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], entry
+[  5.464135 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], return -2
+[  5.464388 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], entry
+[  5.464794 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], return -2
+[  5.465010 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], entry
+[  5.465469 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], return -2
+[  5.465683 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], entry
+[  5.466254 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], return -2
+[  5.466445 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], entry
+[  5.466849 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4294967196, 1073736928, 1073737104, 0, 4294967295, 1073736928], return -2
+[  5.467067 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], entry
+[  5.467705 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736928, 524288, 0, 524288, 1073736928], return 4
+[  5.468034 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737464, 832, 0, 524288, 1073736928], entry
+[  5.468192 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737464, 832, 0, 524288, 1073736928], return 832
+[  5.468558 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073737104, 4096, 67353344, 67351280], entry
+[  5.469710 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073737104, 4096, 67353344, 67351280], return 0
+[  5.469864 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735620, 0, 67307088, 67307088, 67353344, 1], entry
+[  5.470066 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735620, 0, 67307088, 67307088, 67353344, 1], return 7
+[  5.470281 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735632, 6, 4294967295, 1073735545, 4294967295], entry
+         7:     file=libssl.so.3 [0];  generating link map
+[  5.470592 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735632, 6, 4294967295, 1073735545, 4294967295], return 55
+[  5.470879 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 669680, 1, 2050, 4, 0], entry
+[  5.471403 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 669680, 1, 2050, 4, 0], return 20320256
+[  5.471512 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [20443136, 372736, 5, 2066, 4, 122880], entry
+[  5.471841 0:8 axstarry::syscall:53] [syscall] id = 9, args = [20443136, 372736, 5, 2066, 4, 122880], return 20443136
+[  5.471947 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [20815872, 118784, 1, 2066, 4, 495616], entry
+[  5.472124 0:8 axstarry::syscall:53] [syscall] id = 9, args = [20815872, 118784, 1, 2066, 4, 495616], return 20815872
+[  5.472270 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [20934656, 57344, 3, 2066, 4, 610304], entry
+[  5.472475 0:8 axstarry::syscall:53] [syscall] id = 9, args = [20934656, 57344, 3, 2066, 4, 610304], return 20934656
+[  5.474881 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 0, 20320968, 18446744073689230692, 3221225474, 32], entry
+[  5.475345 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 0, 20320968, 18446744073689230692, 3221225474, 32], return 0
+[  5.475729 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735556, 0, 67307384, 67307384, 20320256, 1], entry
+[  5.475883 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735556, 0, 67307384, 67307384, 20320256, 1], return 7
+[  5.476425 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735568, 18, 16, 1073735241, 4294967295], entry
+         7:       dynamic: 0x00000000013ffe30  base: 0x0000000001361000   size: 0x00000000000a37f0
+         7:         entry: 0x0000000001361000  phdr: 0x0000000001361040  phnum:                 11
+         7:
+[  5.477237 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735568, 18, 16, 1073735241, 4294967295], return 203
+[  5.478139 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735988, 0, 67307488, 67307488, 0, 1], entry
+[  5.478420 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735988, 0, 67307488, 67307488, 0, 1], return 7
+[  5.478833 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073736000, 12, 4294967295, 1073735865, 4294967295], entry
+         7:
+         7:     file=libcrypto.so.3 [0];  needed by ./MediaServer [0]
+[  5.479306 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073736000, 12, 4294967295, 1073735865, 4294967295], return 79
+[  5.479567 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736896, 524288, 0, 524288, 1073736896], entry
+[  5.481849 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736896, 524288, 0, 524288, 1073736896], return 4
+[  5.482012 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737432, 832, 0, 524288, 1073736896], entry
+[  5.482191 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737432, 832, 0, 524288, 1073736896], return 832
+[  5.482478 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 8192, 3, 34, 4294967295, 0], entry
+[  5.482688 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 8192, 3, 34, 4294967295, 0], return 20992000
+[  5.482994 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073737072, 4096, 20992000, 67351280], entry
+[  5.486993 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073737072, 4096, 20992000, 67351280], return 0
+[  5.487294 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735588, 0, 67307088, 67307088, 20992000, 1], entry
+[  5.487470 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735588, 0, 67307088, 67307088, 20992000, 1], return 7
+[  5.487669 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735600, 6, 4294967295, 1073735513, 4294967295], entry
+         7:     file=libcrypto.so.3 [0];  generating link map
+[  5.487864 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735600, 6, 4294967295, 1073735513, 4294967295], return 58
+[  5.487970 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4465856, 1, 2050, 4, 0], entry
+[  5.489810 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 4465856, 1, 2050, 4, 0], return 21000192
+[  5.490019 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [21729280, 2482176, 5, 2066, 4, 729088], entry
+[  5.490379 0:8 axstarry::syscall:53] [syscall] id = 9, args = [21729280, 2482176, 5, 2066, 4, 729088], return 21729280
+[  5.490787 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [24211456, 860160, 1, 2066, 4, 3211264], entry
+[  5.491191 0:8 axstarry::syscall:53] [syscall] id = 9, args = [24211456, 860160, 1, 2066, 4, 3211264], return 24211456
+[  5.491653 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [25071616, 385024, 3, 2066, 4, 4067328], entry
+[  5.491958 0:8 axstarry::syscall:53] [syscall] id = 9, args = [25071616, 385024, 3, 2066, 4, 4067328], return 25071616
+[  5.494207 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [25456640, 9408, 3, 50, 4294967295, 0], entry
+[  5.494716 0:8 axstarry::syscall:53] [syscall] id = 9, args = [25456640, 9408, 3, 50, 4294967295, 0], return 25456640
+[  5.500771 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 0, 21000904, 18446744073688550756, 3221225474, 32], entry
+[  5.501092 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 0, 21000904, 18446744073688550756, 3221225474, 32], return 0
+[  5.501330 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735524, 0, 67307384, 67307384, 21000192, 1], entry
+[  5.501555 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735524, 0, 67307384, 67307384, 21000192, 1], return 7
+[  5.501795 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735536, 18, 16, 1073735209, 4294967295], entry
+         7:       dynamic: 0x00000000018438a0  base: 0x0000000001407000   size: 0x00000000004424c0
+         7:         entry: 0x0000000001407000  phdr: 0x0000000001407040  phnum:                 11
+         7:
+[  5.502433 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735536, 18, 16, 1073735209, 4294967295], return 203
+[  5.504716 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735956, 0, 67307488, 67307488, 0, 1], entry
+[  5.504931 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735956, 0, 67307488, 67307488, 0, 1], return 7
+[  5.505129 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735968, 12, 4294967295, 1073735833, 4294967295], entry
+         7:
+         7:     file=libstdc++.so.6 [0];  needed by ./MediaServer [0]
+[  5.505575 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735968, 12, 4294967295, 1073735833, 4294967295], return 79
+[  5.505709 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736864, 524288, 0, 524288, 1073736864], entry
+[  5.507039 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736864, 524288, 0, 524288, 1073736864], return 4
+[  5.507347 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737400, 832, 0, 524288, 1073736864], entry
+[  5.507635 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737400, 832, 0, 524288, 1073736864], return 832
+[  5.507892 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073737040, 4096, 20993280, 67351280], entry
+[  5.510305 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073737040, 4096, 20993280, 67351280], return 0
+[  5.510747 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735556, 0, 67307088, 67307088, 20993280, 1], entry
+[  5.511191 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735556, 0, 67307088, 67307088, 20993280, 1], return 7
+[  5.511514 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735568, 6, 4294967295, 1073735481, 4294967295], entry
+         7:     file=libstdc++.so.6 [0];  generating link map
+[  5.512256 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735568, 6, 4294967295, 1073735481, 4294967295], return 58
+[  5.512493 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 2275520, 1, 2050, 4, 0], entry
+[  5.513757 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 2275520, 1, 2050, 4, 0], return 25468928
+[  5.514082 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [26099712, 1576960, 0, 2050, 4, 0], entry
+[  5.514332 0:8 axstarry::syscall:53] [syscall] id = 10, args = [26099712, 1576960, 0, 2050, 4, 0], return 0
+[  5.514532 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [26099712, 1118208, 5, 2066, 4, 630784], entry
+[  5.514847 0:8 axstarry::syscall:53] [syscall] id = 9, args = [26099712, 1118208, 5, 2066, 4, 630784], return 26099712
+[  5.514991 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [27217920, 454656, 1, 2066, 4, 1748992], entry
+[  5.515259 0:8 axstarry::syscall:53] [syscall] id = 9, args = [27217920, 454656, 1, 2066, 4, 1748992], return 27217920
+[  5.515552 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [27676672, 57344, 3, 2066, 4, 2203648], entry
+[  5.515842 0:8 axstarry::syscall:53] [syscall] id = 9, args = [27676672, 57344, 3, 2066, 4, 2203648], return 27676672
+[  5.517008 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [27734016, 10432, 3, 50, 4294967295, 0], entry
+[  5.517285 0:8 axstarry::syscall:53] [syscall] id = 9, args = [27734016, 10432, 3, 50, 4294967295, 0], return 27734016
+[  5.520245 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 0, 25469696, 18446744073684081964, 3221225474, 32], entry
+[  5.520483 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 0, 25469696, 18446744073684081964, 3221225474, 32], return 0
+[  5.520659 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735492, 0, 67307384, 67307384, 25468928, 1], entry
+[  5.520960 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735492, 0, 67307384, 67307384, 25468928, 1], return 7
+[  5.521173 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735504, 18, 16, 1073735177, 4294967295], entry
+         7:       dynamic: 0x0000000001a6ec90  base: 0x000000000184a000   size: 0x000000000022b8c0
+         7:         entry: 0x000000000184a000  phdr: 0x000000000184a040  phnum:                 12
+         7:
+[  5.521803 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735504, 18, 16, 1073735177, 4294967295], return 203
+[  5.523170 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735924, 0, 67307488, 67307488, 0, 1], entry
+[  5.523412 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735924, 0, 67307488, 67307488, 0, 1], return 7
+[  5.523614 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735936, 12, 4294967295, 1073735801, 4294967295], entry
+         7:
+         7:     file=libm.so.6 [0];  needed by ./MediaServer [0]
+[  5.523974 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735936, 12, 4294967295, 1073735801, 4294967295], return 74
+[  5.524197 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736832, 524288, 0, 524288, 1073736832], entry
+[  5.524980 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736832, 524288, 0, 524288, 1073736832], return 4
+[  5.525191 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737368, 832, 0, 524288, 1073736832], entry
+[  5.525482 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737368, 832, 0, 524288, 1073736832], return 832
+[  5.525727 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073737008, 4096, 20994560, 67351280], entry
+[  5.526839 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073737008, 4096, 20994560, 67351280], return 0
+[  5.527210 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735524, 0, 67307088, 67307088, 20994560, 1], entry
+[  5.527673 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735524, 0, 67307088, 67307088, 20994560, 1], return 7
+[  5.527902 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735536, 6, 4294967295, 1073735449, 4294967295], entry
+         7:     file=libm.so.6 [0];  generating link map
+[  5.528636 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735536, 6, 4294967295, 1073735449, 4294967295], return 53
+[  5.529309 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 942344, 1, 2050, 4, 0], entry
+[  5.529943 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 942344, 1, 2050, 4, 0], return 27746304
+[  5.530426 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [27803648, 507904, 5, 2066, 4, 57344], entry
+[  5.530863 0:8 axstarry::syscall:53] [syscall] id = 9, args = [27803648, 507904, 5, 2066, 4, 57344], return 27803648
+[  5.531163 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28311552, 372736, 1, 2066, 4, 565248], entry
+[  5.531444 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28311552, 372736, 1, 2066, 4, 565248], return 28311552
+[  5.531692 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28684288, 8192, 3, 2066, 4, 933888], entry
+[  5.531957 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28684288, 8192, 3, 2066, 4, 933888], return 28684288
+[  5.533845 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 4, 27747032, 18446744073681804644, 3221258242, 48], entry
+[  5.534088 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 4, 27747032, 18446744073681804644, 3221258242, 48], return 0
+[  5.534341 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735460, 0, 67307384, 67307384, 27746304, 1], entry
+[  5.534595 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735460, 0, 67307384, 67307384, 27746304, 1], return 7
+[  5.534837 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735472, 18, 16, 1073735145, 4294967295], entry
+         7:       dynamic: 0x0000000001b5bd90  base: 0x0000000001a76000   size: 0x00000000000e6108
+         7:         entry: 0x0000000001a76000  phdr: 0x0000000001a76040  phnum:                 11
+         7:
+[  5.535590 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735472, 18, 16, 1073735145, 4294967295], return 203
+[  5.536315 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735892, 0, 67307488, 67307488, 0, 1], entry
+[  5.536575 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735892, 0, 67307488, 67307488, 0, 1], return 7
+[  5.536881 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735904, 12, 4294967295, 1073735769, 4294967295], entry
+         7:
+         7:     file=libgcc_s.so.1 [0];  needed by ./MediaServer [0]
+[  5.537279 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735904, 12, 4294967295, 1073735769, 4294967295], return 78
+[  5.537371 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736800, 524288, 0, 524288, 1073736800], entry
+[  5.537855 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736800, 524288, 0, 524288, 1073736800], return 4
+[  5.538136 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737336, 832, 0, 524288, 1073736800], entry
+[  5.538404 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737336, 832, 0, 524288, 1073736800], return 832
+[  5.538649 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073736976, 4096, 20995808, 67351280], entry
+[  5.539142 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073736976, 4096, 20995808, 67351280], return 0
+[  5.539301 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735492, 0, 67307088, 67307088, 20995808, 1], entry
+[  5.539552 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735492, 0, 67307088, 67307088, 20995808, 1], return 7
+[  5.539824 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735504, 6, 4294967295, 1073735417, 4294967295], entry
+         7:     file=libgcc_s.so.1 [0];  generating link map
+[  5.540122 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735504, 6, 4294967295, 1073735417, 4294967295], return 57
+[  5.540489 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 127720, 1, 2050, 4, 0], entry
+[  5.540822 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 127720, 1, 2050, 4, 0], return 28692480
+[  5.541088 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28704768, 94208, 5, 2066, 4, 12288], entry
+[  5.541348 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28704768, 94208, 5, 2066, 4, 12288], return 28704768
+[  5.541586 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28798976, 16384, 1, 2066, 4, 106496], entry
+[  5.541844 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28798976, 16384, 1, 2066, 4, 106496], return 28798976
+[  5.542030 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28815360, 8192, 3, 2066, 4, 118784], entry
+[  5.542229 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28815360, 8192, 3, 2066, 4, 118784], return 28815360
+[  5.542767 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 0, 28693192, 18446744073680858468, 3221225474, 32], entry
+[  5.543032 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 0, 28693192, 18446744073680858468, 3221225474, 32], return 0
+[  5.543298 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735428, 0, 67307384, 67307384, 28692480, 1], entry
+[  5.543509 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735428, 0, 67307384, 67307384, 28692480, 1], return 7
+[  5.543812 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735440, 18, 16, 1073735113, 4294967295], entry
+         7:       dynamic: 0x0000000001b7bde0  base: 0x0000000001b5d000   size: 0x000000000001f2e8
+         7:         entry: 0x0000000001b5d000  phdr: 0x0000000001b5d040  phnum:                 11
+         7:
+[  5.544565 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735440, 18, 16, 1073735113, 4294967295], return 203
+[  5.545047 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735860, 0, 67307488, 67307488, 0, 1], entry
+[  5.545203 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735860, 0, 67307488, 67307488, 0, 1], return 7
+[  5.545774 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735872, 12, 4294967295, 1073735737, 4294967295], entry
+         7:
+         7:     file=libc.so.6 [0];  needed by ./MediaServer [0]
+[  5.546364 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735872, 12, 4294967295, 1073735737, 4294967295], return 74
+[  5.546528 0:8 axstarry::syscall:31] [syscall] id = OPENAT, args = [4294967196, 1073736768, 524288, 0, 524288, 1073736768], entry
+[  5.547860 0:8 axstarry::syscall:53] [syscall] id = 257, args = [4294967196, 1073736768, 524288, 0, 524288, 1073736768], return 4
+[  5.548158 0:8 axstarry::syscall:31] [syscall] id = READ, args = [4, 1073737304, 832, 0, 524288, 1073736768], entry
+[  5.548416 0:8 axstarry::syscall:53] [syscall] id = 0, args = [4, 1073737304, 832, 0, 524288, 1073736768], return 832
+[  5.548627 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073735872, 784, 64, 1073735872, 1073736768], entry
+[  5.550745 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073735872, 784, 64, 1073735872, 1073736768], return 784
+[  5.551078 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073735808, 48, 848, 1073735872, 0], entry
+[  5.552319 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073735808, 48, 848, 1073735872, 0], return 48
+[  5.552627 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073735728, 68, 896, 1073735872, 0], entry
+[  5.553803 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073735728, 68, 896, 1073735872, 0], return 68
+[  5.554040 0:8 axstarry::syscall:31] [syscall] id = FSTATAT, args = [4, 67301097, 1073736944, 4096, 20997088, 67351280], entry
+[  5.556123 0:8 axstarry::syscall:53] [syscall] id = 262, args = [4, 67301097, 1073736944, 4096, 20997088, 67351280], return 0
+[  5.556418 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073735460, 0, 67307088, 67307088, 20997088, 1], entry
+[  5.556680 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073735460, 0, 67307088, 67307088, 20997088, 1], return 7
+[  5.557018 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073735472, 6, 4294967295, 1073735385, 4294967295], entry
+         7:     file=libc.so.6 [0];  generating link map
+[  5.557544 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073735472, 6, 4294967295, 1073735385, 4294967295], return 53
+[  5.557837 0:8 axstarry::syscall:31] [syscall] id = PREAD64, args = [4, 1073735984, 784, 64, 0, 20998264], entry
+[  5.558908 0:8 axstarry::syscall:53] [syscall] id = 17, args = [4, 1073735984, 784, 64, 0, 20998264], return 784
+[  5.559131 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 2264656, 1, 2050, 4, 0], entry
+[  5.559493 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 2264656, 1, 2050, 4, 0], return 28823552
+[  5.559712 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [28987392, 2023424, 0, 2050, 4, 0], entry
+[  5.560023 0:8 axstarry::syscall:53] [syscall] id = 10, args = [28987392, 2023424, 0, 2050, 4, 0], return 0
+[  5.560286 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [28987392, 1658880, 5, 2066, 4, 163840], entry
+[  5.560606 0:8 axstarry::syscall:53] [syscall] id = 9, args = [28987392, 1658880, 5, 2066, 4, 163840], return 28987392
+[  5.560919 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [30646272, 360448, 1, 2066, 4, 1822720], entry
+[  5.561315 0:8 axstarry::syscall:53] [syscall] id = 9, args = [30646272, 360448, 1, 2066, 4, 1822720], return 30646272
+[  5.561701 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [31010816, 24576, 3, 2066, 4, 2183168], entry
+[  5.561965 0:8 axstarry::syscall:53] [syscall] id = 9, args = [31010816, 24576, 3, 2066, 4, 2183168], return 31010816
+[  5.564181 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [31035392, 52816, 3, 50, 4294967295, 0], entry
+[  5.564604 0:8 axstarry::syscall:53] [syscall] id = 9, args = [31035392, 52816, 3, 50, 4294967295, 0], return 31035392
+[  5.567698 0:8 axstarry::syscall:31] [syscall] id = CLOSE, args = [4, 4, 28824448, 18446744073680727228, 3221258242, 48], entry
+[  5.567991 0:8 axstarry::syscall:53] [syscall] id = 3, args = [4, 4, 28824448, 18446744073680727228, 3221258242, 48], return 0
+[  5.568226 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073734596, 0, 67307384, 67307384, 28823552, 1], entry
+[  5.568455 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073734596, 0, 67307384, 67307384, 28823552, 1], return 7
+[  5.568693 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073734608, 18, 16, 1073734281, 4294967295], entry
+         7:       dynamic: 0x0000000001d96bc0  base: 0x0000000001b7d000   size: 0x0000000000228e50
+         7:         entry: 0x0000000001ba6f50  phdr: 0x0000000001b7d040  phnum:                 14
+         7:
+[  5.569372 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073734608, 18, 16, 1073734281, 4294967295], return 203
+[  5.665766 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 8192, 3, 34, 4294967295, 0], entry
+[  5.665909 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 8192, 3, 34, 4294967295, 0], return 31088640
+[  5.667445 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 12288, 3, 34, 4294967295, 0], entry
+[  5.667540 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 12288, 3, 34, 4294967295, 0], return 31096832
+[  5.667749 0:8 axstarry::syscall:40] [syscall] id = ARCH_PRCTL, args = [4098, 31095872, 18446744073678453216, 34, 4294967295, 0], entry
+[  5.667846 0:8 axstarry::syscall:53] [syscall] id = 158, args = [4098, 31095872, 18446744073678453216, 34, 4294967295, 0], return 0
+[  5.667988 0:8 axstarry::syscall:40] [syscall] id = SET_TID_ADDRESS, args = [31096592, 31095872, 67350744, 34, 4294967295, 0], entry
+[  5.668097 0:8 axstarry::syscall:53] [syscall] id = 218, args = [31096592, 31095872, 67350744, 34, 4294967295, 0], return 8
+[  5.668190 0:8 axstarry::syscall:40] [syscall] id = SET_ROBUST_LIST, args = [31096608, 24, 67350744, 34, 4294967295, 0], entry
+[  5.668449 0:8 axstarry::syscall:53] [syscall] id = 273, args = [31096608, 24, 67350744, 34, 4294967295, 0], return 0
+[  5.668662 0:8 axstarry::syscall:40] [syscall] id = RSEQ, args = [31098336, 32, 0, 1392848979, 0, 0], entry
+[  5.668885 0:8 axstarry::syscall:53] [syscall] id = 334, args = [31098336, 32, 0, 1392848979, 0, 0], return 0
+[  6.391720 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [31010816, 16384, 1, 28823552, 28851800, 0], entry
+[  6.392025 0:8 axstarry::syscall:53] [syscall] id = 10, args = [31010816, 16384, 1, 28823552, 28851800, 0], return 0
+[  6.558504 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [28815360, 4096, 1, 28692480, 28848056, 29108640], entry
+[  6.558823 0:8 axstarry::syscall:53] [syscall] id = 10, args = [28815360, 4096, 1, 28692480, 28848056, 29108640], return 0
+[  6.650226 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [28684288, 4096, 1, 27746304, 28896536, 31033440], entry
+[  6.650507 0:8 axstarry::syscall:53] [syscall] id = 10, args = [28684288, 4096, 1, 27746304, 28896536, 31033440], return 0
+[  9.608976 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [27676672, 45056, 1, 25468928, 25597176, 26179776], entry
+[  9.609297 0:8 axstarry::syscall:53] [syscall] id = 10, args = [27676672, 45056, 1, 25468928, 25597176, 26179776], return 0
+[ 10.393777 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [25071616, 372736, 1, 21000192, 28890704, 29412912], entry
+[ 10.394046 0:8 axstarry::syscall:53] [syscall] id = 10, args = [25071616, 372736, 1, 21000192, 28890704, 29412912], return 0
+[ 10.812573 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [20934656, 40960, 1, 20320256, 21066496, 21912080], entry
+[ 10.812759 0:8 axstarry::syscall:53] [syscall] id = 10, args = [20934656, 40960, 1, 20320256, 21066496, 21912080], return 0
+[ 16.862650 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [20148224, 131072, 1, 4096, 25614408, 26829984], entry
+[ 16.862836 0:8 axstarry::syscall:53] [syscall] id = 10, args = [20148224, 131072, 1, 4096, 25614408, 26829984], return 0
+[ 16.863475 0:8 axstarry::syscall:22] [syscall] id = MPROTECT, args = [67338240, 8192, 1, 67108864, 28855904, 0], entry
+[ 16.863619 0:8 axstarry::syscall:53] [syscall] id = 10, args = [67338240, 8192, 1, 67108864, 28855904, 0], return 0
+[ 16.867769 0:8 axstarry::syscall:40] [syscall] id = PRLIMIT64, args = [0, 3, 0, 1073739984, 0, 15], entry
+[ 16.867885 0:8 axstarry::syscall:53] [syscall] id = 302, args = [0, 3, 0, 1073739984, 0, 15], return 0
+[ 16.871713 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 0, 1], entry
+[ 16.871822 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 0, 1], return 7
+[ 16.872346 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 1024, 4294967295], entry
+         7:
+         7:     calling init: /lib64/ld-linux-x86-64.so.2
+         7:
+[ 16.872939 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 1024, 4294967295], return 80
+[ 16.873195 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 1024, 1], entry
+[ 16.873345 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 1024, 1], return 7
+[ 16.873445 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 1024, 4294967295], entry
+         7:
+         7:     calling init: /lib/libc.so.6
+         7:
+[ 16.873672 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 1024, 4294967295], return 67
+[ 16.877686 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 1024, 1], entry
+[ 16.877887 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 1024, 1], return 7
+[ 16.878118 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 61681, 4294967295], entry
+         7:
+         7:     calling init: /lib/libgcc_s.so.1
+         7:
+[ 16.878361 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 61681, 4294967295], return 71
+[ 16.879100 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 2147483658, 1], entry
+[ 16.879514 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 2147483658, 1], return 7
+[ 16.879726 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 2147483658, 4294967295], entry
+         7:
+         7:     calling init: /lib/libm.so.6
+         7:
+[ 16.880137 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 2147483658, 4294967295], return 67
+[ 16.880861 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 2147483658, 1], entry
+[ 16.881086 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 2147483658, 1], return 7
+[ 16.881273 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], entry
+         7:
+         7:     calling init: /lib/libstdc++.so.6
+         7:
+[ 16.881591 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], return 72
+[ 16.893626 0:8 axstarry::syscall:40] [syscall] id = GETRANDOM, args = [31057112, 8, 1, 28851800, 31035184, 4294967295], entry
+[ 16.893917 0:8 axstarry::syscall:53] [syscall] id = 318, args = [31057112, 8, 1, 28851800, 31035184, 4294967295], return 8
+[ 16.897998 0:8 axstarry::syscall:22] [syscall] id = BRK, args = [0, 31030400, 0, 31030496, 2, 4294967295], entry
+[ 16.898296 0:8 axstarry::syscall:53] [syscall] id = 12, args = [0, 31030400, 0, 31030496, 2, 4294967295], return 1067450368
+[ 16.898622 0:8 axstarry::syscall:22] [syscall] id = BRK, args = [1067585536, 31030400, 31060504, 31030496, 2, 4294967295], entry
+[ 16.898866 0:8 axstarry::syscall:53] [syscall] id = 12, args = [1067585536, 31030400, 31060504, 31030496, 2, 4294967295], return 1067450368
+[ 16.900481 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 1048576, 3, 34, 4294967295, 0], entry
+[ 16.900723 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 1048576, 3, 34, 4294967295, 0], return 31109120
+[ 16.903233 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 31035408, 1], entry
+[ 16.903508 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 31035408, 1], return 7
+[ 16.903707 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], entry
+         7:
+         7:     calling init: /lib/libcrypto.so.3
+         7:
+[ 16.903981 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], return 72
+[ 16.918828 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739668, 0, 67296259, 67296259, 0, 1], entry
+[ 16.919176 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739668, 0, 67296259, 67296259, 0, 1], return 7
+[ 16.919430 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], entry
+         7:
+         7:     calling init: /lib/libssl.so.3
+         7:
+[ 16.919832 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739680, 8, 4294967295, 61937, 4294967295], return 69
+[ 16.967987 0:8 axstarry::syscall:40] [syscall] id = GETPID, args = [1073739700, 0, 30756736, 30756736, 31035440, 1], entry
+[ 16.968119 0:8 axstarry::syscall:53] [syscall] id = 39, args = [1073739700, 0, 30756736, 30756736, 31035440, 1], return 7
+[ 16.968297 0:8 axstarry::syscall:31] [syscall] id = WRITEV, args = [2, 1073739712, 8, 4294967295, 31035440, 4294967295], entry
+         7:
+         7:     initialize program: ./MediaServer
+         7:
+[ 16.968668 0:8 axstarry::syscall:53] [syscall] id = 20, args = [2, 1073739712, 8, 4294967295, 31035440, 4294967295], return 72
+[ 17.123004 0:8 axstarry::syscall:40] [syscall] id = FUTEX, args = [27735932, 129, 2147483647, 0, 202, 2177], entry
+[ 17.123365 0:8 axstarry::syscall:53] [syscall] id = 202, args = [27735932, 129, 2147483647, 0, 202, 2177], return 2147483647
+[ 17.870809 0:8 axstarry::syscall:31] [syscall] id = PIPE2, args = [1073739256, 524288, 16592948, 25621680, 0, 31182544], entry
+[ 17.871372 0:8 axstarry::syscall:53] [syscall] id = 293, args = [1073739256, 524288, 16592948, 25621680, 0, 31182544], return 0
+[ 17.877349 0:8 axstarry::syscall:40] [syscall] id = PRLIMIT64, args = [0, 7, 0, 1073738960, 0, 31182544], entry
+[ 17.877469 0:8 axstarry::syscall:53] [syscall] id = 302, args = [0, 7, 0, 1073738960, 0, 31182544], return 0
+[ 17.877609 0:8 axstarry::syscall:40] [syscall] id = PRLIMIT64, args = [0, 7, 0, 1073738960, 0, 31182544], entry
+[ 17.877761 0:8 axstarry::syscall:53] [syscall] id = 302, args = [0, 7, 0, 1073738960, 0, 31182544], return 0
+[ 17.879434 0:8 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 36864, 3, 131106, 4294967295, 0], entry
+[ 17.879667 0:8 axstarry::syscall:53] [syscall] id = 9, args = [0, 36864, 3, 131106, 4294967295, 0], return 32157696
+[ 17.881525 0:8 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [0, 30748480, 1073738496, 8, 4294967295, 0], entry
+[ 17.883716 0:8 axstarry::syscall:53] [syscall] id = 14, args = [0, 30748480, 1073738496, 8, 4294967295, 0], return 0
+[ 17.885388 0:8 axstarry::syscall:40] [syscall] id = CLONE3, args = [1073738400, 88, 29950288, 8, 1073738496, 0], entry
+[ 17.886922 0:10 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [0, 0, 32157344, 8, 0, 0], entry
+[ 17.887165 0:10 axstarry::syscall:53] [syscall] id = 14, args = [0, 0, 32157344, 8, 0, 0], return 0
+[ 17.887446 0:10 axstarry::syscall:31] [syscall] id = DUP2, args = [5, 1, 0, 8, 0, 0], entry
+[ 17.887642 0:10 axstarry::syscall:53] [syscall] id = 33, args = [5, 1, 0, 8, 0, 0], return 1
+[ 17.887842 0:10 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [2, 1073738496, 0, 8, 1073738496, 0], entry
+[ 17.887976 0:10 axstarry::syscall:53] [syscall] id = 14, args = [2, 1073738496, 0, 8, 1073738496, 0], return 0
+[ 17.889423 0:10 axstarry::syscall:40] [syscall] id = EXECVE, args = [30758520, 1073739264, 1073741144, 8, 1073738496, 0], entry
+[ 17.923092 0:10 axstarry::syscall:53] [syscall] id = 59, args = [30758520, 1073739264, 1073741144, 8, 1073738496, 0], return 3
+[ 17.923906 0:10 axstarry::syscall:40] [syscall] id = ARCH_PRCTL, args = [4098, 70353528, 0, 0, 1685382482, 0], entry
+[ 17.924161 0:10 axstarry::syscall:53] [syscall] id = 158, args = [4098, 70353528, 0, 0, 1685382482, 0], return 0
+[ 17.924256 0:10 axstarry::syscall:40] [syscall] id = SET_TID_ADDRESS, args = [70355960, 70353528, 0, 0, 0, 0], entry
+[ 17.924354 0:10 axstarry::syscall:53] [syscall] id = 218, args = [70355960, 70353528, 0, 0, 0, 0], return 10
+[ 17.924814 0:10 axstarry::syscall:40] [syscall] id = GETUID, args = [1073741383, 47, 115, 0, 0, 0], entry
+[ 17.925111 0:10 axstarry::syscall:53] [syscall] id = 102, args = [1073741383, 47, 115, 0, 0, 0], return 0
+[ 17.925684 0:10 axstarry::syscall:22] [syscall] id = BRK, args = [0, 1073741824, 1073741264, 0, 3, 0], entry
+[ 17.925951 0:10 axstarry::syscall:53] [syscall] id = 12, args = [0, 1073741824, 1073741264, 0, 3, 0], return 1067450368
+[ 17.926267 0:10 axstarry::syscall:22] [syscall] id = BRK, args = [1067458560, 1073741824, 1, 0, 3, 0], entry
+[ 17.926442 0:10 axstarry::syscall:53] [syscall] id = 12, args = [1067458560, 1073741824, 1, 0, 3, 0], return 1067458560
+[ 17.926749 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], entry
+[ 17.927193 0:10 axstarry::syscall:53] [syscall] id = 9, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], return 1067450368
+[ 17.927542 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.927868 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[ 17.928778 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.929012 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 8192
+[ 17.929424 0:10 axstarry::syscall:40] [syscall] id = GETPID, args = [1073740696, 248, 67545110, 8876, 8592, 1], entry
+[ 17.929647 0:10 axstarry::syscall:53] [syscall] id = 39, args = [1073740696, 248, 67545110, 8876, 8592, 1], return 9
+[ 17.929893 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.930053 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 12288
+[ 17.930679 0:10 axstarry::syscall:40] [syscall] id = SIGPROCMASK, args = [1, 1073739744, 0, 8, 12352, 0], entry
+[ 17.931126 0:10 axstarry::syscall:53] [syscall] id = 14, args = [1, 1073739744, 0, 8, 12352, 0], return 0
+[ 17.931558 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [17, 1073739712, 0, 8, 12352, 0], entry
+[ 17.931816 0:10 axstarry::syscall:53] [syscall] id = 13, args = [17, 1073739712, 0, 8, 12352, 0], return 0
+[ 17.932487 0:10 axstarry::syscall:40] [syscall] id = GETPPID, args = [68190691, 68190690, 4, 9692, 5272, 5728], entry
+[ 17.933059 0:10 axstarry::syscall:53] [syscall] id = 110, args = [68190691, 68190690, 4, 9692, 5272, 5728], return 7
+[ 17.933716 0:10 axstarry::syscall:40] [syscall] id = UNAME, args = [1073740216, 68187234, 9, 9788, 5224, 0], entry
+[ 17.934046 0:10 axstarry::syscall:53] [syscall] id = 63, args = [1073740216, 68187234, 9, 9788, 5224, 0], return 0
+[ 17.934286 0:10 axstarry::syscall:31] [syscall] id = STAT, args = [1073741391, 1073739888, 1073739888, 10380, 5456, 4294967196], entry
+[ 17.934506 0:10 axstarry::syscall:53] [syscall] id = 4, args = [1073741391, 1073739888, 1073739888, 10380, 5456, 4294967196], return 0
+[ 17.934815 0:10 axstarry::syscall:31] [syscall] id = STAT, args = [68205368, 1073739888, 1073739888, 10380, 0, 4294967196], entry
+[ 17.935146 0:10 axstarry::syscall:53] [syscall] id = 4, args = [68205368, 1073739888, 1073739888, 10380, 0, 4294967196], return 0
+[ 17.935693 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [2, 0, 1073740304, 8, 5456, 9648], entry
+[ 17.936063 0:10 axstarry::syscall:53] [syscall] id = 13, args = [2, 0, 1073740304, 8, 5456, 9648], return 0
+[ 17.936361 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [2, 1073740272, 0, 8, 5456, 9648], entry
+[ 17.936755 0:10 axstarry::syscall:53] [syscall] id = 13, args = [2, 1073740272, 0, 8, 5456, 9648], return 0
+[ 17.937144 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [3, 0, 1073740304, 8, 5456, 9648], entry
+[ 17.937407 0:10 axstarry::syscall:53] [syscall] id = 13, args = [3, 0, 1073740304, 8, 5456, 9648], return 0
+[ 17.937752 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [3, 1073740272, 0, 8, 5456, 9648], entry
+[ 17.938071 0:10 axstarry::syscall:53] [syscall] id = 13, args = [3, 1073740272, 0, 8, 5456, 9648], return 0
+[ 17.938319 0:10 axstarry::syscall:40] [syscall] id = SIGACTION, args = [15, 0, 1073740304, 8, 5456, 9648], entry
+[ 17.938511 0:10 axstarry::syscall:53] [syscall] id = 13, args = [15, 0, 1073740304, 8, 5456, 9648], return 0
+[ 17.940010 0:10 axstarry::syscall:31] [syscall] id = STAT, args = [6424, 1073739536, 1073739536, 4294967295, 6434, 4294967196], entry
+[ 17.941500 0:10 axstarry::syscall:53] [syscall] id = 4, args = [6424, 1073739536, 1073739536, 4294967295, 6434, 4294967196], return 0
+[ 17.942121 0:10 axstarry::syscall:40] [syscall] id = EXECVE, args = [6512, 6400, 6424, 10428, 6522, 9259542123273814144], entry
+[ 17.966279 0:10 axstarry::syscall:53] [syscall] id = 59, args = [6512, 6400, 6424, 10428, 6522, 9259542123273814144], return 2
+[ 17.966932 0:10 axstarry::syscall:40] [syscall] id = ARCH_PRCTL, args = [4098, 70353528, 0, 0, 1685382482, 0], entry
+[ 17.967201 0:10 axstarry::syscall:53] [syscall] id = 158, args = [4098, 70353528, 0, 0, 1685382482, 0], return 0
+[ 17.967347 0:10 axstarry::syscall:40] [syscall] id = SET_TID_ADDRESS, args = [70355960, 70353528, 0, 0, 0, 0], entry
+[ 17.967415 0:10 axstarry::syscall:53] [syscall] id = 218, args = [70355960, 70353528, 0, 0, 0, 0], return 10
+[ 17.967774 0:10 axstarry::syscall:40] [syscall] id = GETUID, args = [1073741380, 47, 119, 0, 0, 0], entry
+[ 17.967916 0:10 axstarry::syscall:53] [syscall] id = 102, args = [1073741380, 47, 119, 0, 0, 0], return 0
+[ 17.969142 0:10 axstarry::syscall:22] [syscall] id = BRK, args = [0, 1073741824, 1073741272, 6, 8192, 68236477], entry
+[ 17.969357 0:10 axstarry::syscall:53] [syscall] id = 12, args = [0, 1073741824, 1073741272, 6, 8192, 68236477], return 1067450368
+[ 17.969565 0:10 axstarry::syscall:22] [syscall] id = BRK, args = [1067458560, 1073741824, 1, 6, 8192, 68236477], entry
+[ 17.969750 0:10 axstarry::syscall:53] [syscall] id = 12, args = [1067458560, 1073741824, 1, 6, 8192, 68236477], return 1067458560
+[ 17.969972 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], entry
+[ 17.970176 0:10 axstarry::syscall:53] [syscall] id = 9, args = [1067450368, 4096, 0, 50, 18446744073709551615, 0], return 1067450368
+[ 17.970646 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.970936 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[ 17.971476 0:10 axstarry::syscall:31] [syscall] id = ACCESS, args = [4160, 1, 4294967295, 6, 8192, 68236477], entry
+[ 17.971956 0:10 axstarry::syscall:53] [syscall] id = 21, args = [4160, 1, 4294967295, 6, 8192, 68236477], return -2
+[ 17.972560 0:10 axstarry::syscall:22] [syscall] id = MUNMAP, args = [4096, 4096, 4096, 1, 4096, 1], entry
+[ 17.972787 0:10 axstarry::syscall:53] [syscall] id = 11, args = [4096, 4096, 4096, 1, 4096, 1], return 0
+[ 17.973079 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.973370 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[ 17.973632 0:10 axstarry::syscall:31] [syscall] id = ACCESS, args = [4160, 1, 4294967295, 6, 8192, 68236477], entry
+[ 17.974045 0:10 axstarry::syscall:53] [syscall] id = 21, args = [4160, 1, 4294967295, 6, 8192, 68236477], return -2
+[ 17.974254 0:10 axstarry::syscall:22] [syscall] id = MUNMAP, args = [4096, 4096, 4096, 1, 4096, 1], entry
+[ 17.974428 0:10 axstarry::syscall:53] [syscall] id = 11, args = [4096, 4096, 4096, 1, 4096, 1], return 0
+[ 17.974635 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.974841 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[ 17.975091 0:10 axstarry::syscall:31] [syscall] id = ACCESS, args = [4160, 1, 4294967295, 6, 8192, 68236477], entry
+[ 17.975559 0:10 axstarry::syscall:53] [syscall] id = 21, args = [4160, 1, 4294967295, 6, 8192, 68236477], return -2
+[ 17.975736 0:10 axstarry::syscall:22] [syscall] id = MUNMAP, args = [4096, 4096, 4096, 1, 4096, 1], entry
+[ 17.975948 0:10 axstarry::syscall:53] [syscall] id = 11, args = [4096, 4096, 4096, 1, 4096, 1], return 0
+[ 17.976135 0:10 axstarry::syscall:22] [syscall] id = MMAP, args = [0, 4096, 3, 34, 18446744073709551615, 0], entry
+[ 17.976296 0:10 axstarry::syscall:53] [syscall] id = 9, args = [0, 4096, 3, 34, 18446744073709551615, 0], return 4096
+[ 17.976509 0:10 axstarry::syscall:31] [syscall] id = ACCESS, args = [4160, 1, 4294967295, 6, 8192, 68236477], entry
+[ 17.976956 0:10 axstarry::syscall:53] [syscall] id = 21, args = [4160, 1, 4294967295, 6, 8192, 68236477], return -2
+[ 17.977174 0:10 axstarry::syscall:22] [syscall] id = MUNMAP, args = [4096, 4096, 4096, 1, 4096, 1], entry
+[ 17.977375 0:10 axstarry::syscall:53] [syscall] id = 11, args = [4096, 4096, 4096, 1, 4096, 1], return 0
+[ 17.977724 0:10 axstarry::syscall:40] [syscall] id = EXIT_GROUP, args = [1, 0, 0, 1, 4096, 1], entry
+[ 17.978404 0:8 axstarry::syscall:53] [syscall] id = 435, args = [1073738400, 88, 29950288, 8, 1073738496, 0], return 9
+[ 17.978705 0:8 axmem:403] Page fault address VA:0x1ca383d not found in memory set 
+[ 17.979084 0:8 axruntime::lang_items:5] panicked at modules/axmem/src/lib.rs:406:17:
+FIXME: Page fault shouldn't cause a panic in kernel.
